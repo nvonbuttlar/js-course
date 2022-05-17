@@ -34,6 +34,7 @@
 - I know the fundamentals and want to use them to do bigger projects as practice.
 
 # 5.0 Dev skills & setup
+- Setup is already complete
 - How to think like a developer
 - STAY CALM. SLOW DOWN. 
 - Take a logical, and rational approach. Programming is just logic. 
@@ -41,6 +42,9 @@
   1. Make sure you 100% understand the problem. Ask the right questions to get a clear picture. 
   2. Divide and conquer. Break a big problem into smaller sub-problems. Make a task list.
   3. First try to solve problem. And then - RESEARCH. Google. MDN. StackOverflow.
-  4. For bigger problemsm write psuedo code before writing actual code. 
+  4. For bigger problemsm write psuedo code before writing actual code.
 
+- Discover a genuine curiosty for how things work.
+
+- Debugging in the Console: 
 
