@@ -1,7 +1,7 @@
 # 1.0 + 2.0 Welcome and JS Fundamentals pt.1
 
 ## Javascript History
-- ES6/ES2015 iggest update to the language EVER
+- ES6/ES2015 biggest update to the language EVER
 - ES = ECMAScript
 - ES6 onwards is Modern Javascript
 - New updates every year
@@ -18,4 +18,9 @@
 - Data types are determined automatically
 
 # 3.0 JS Fundamentals pt.2
+- Arrow functions
+- Calling a function in another function
+- Function expression vs Function declaration
+- The main difference between a function expression and a function declaration is the function name, which can be omitted in function expressions to create anonymous functions.
+
 
