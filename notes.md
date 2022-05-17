@@ -22,5 +22,25 @@
 - Calling a function in another function
 - Function expression vs Function declaration
 - The main difference between a function expression and a function declaration is the function name, which can be omitted in function expressions to create anonymous functions.
+- Objects, Arrays, and methods for both
+
+# 4.0 How to Navigate the Course
+- At the beggining of each section there is a flag that says either
+1. Very important
+2. Good to know
+3. Optional 
+- These are important as there is stil 50 hours of video left, not all of which is necessary.
+- I'm leaning toward pathway 3. Only projects with UI. 
+- I know the fundamentals and want to use them to do bigger projects as practice.
+
+# 5.0 Dev skills & setup
+- How to think like a developer
+- STAY CALM. SLOW DOWN. 
+- Take a logical, and rational approach. Programming is just logic. 
+- 4 step framework to solve any problem: 
+  1. Make sure you 100% understand the problem. Ask the right questions to get a clear picture. 
+  2. Divide and conquer. Break a big problem into smaller sub-problems. Make a task list.
+  3. First try to solve problem. And then - RESEARCH. Google. MDN. StackOverflow.
+  4. For bigger problemsm write psuedo code before writing actual code. 
 
 
