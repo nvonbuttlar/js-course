@@ -19,6 +19,8 @@ const generateNumber = (min, max) => {
 const targetNumber = generateNumber(1, 20);
 console.log("target number: ", targetNumber);
 
+let score = 20;
+
 const checkGuess = () => {
 
   const inputVal = document.querySelector(".guess").value;
@@ -27,13 +29,26 @@ const checkGuess = () => {
   const guessDiff = inputVal - targetNumber;
 
   if (guessDiff > 0) {
-    alert("too high...");
+    document.querySelector(".message").textContent = "too high...";
+    score -- 
+    document.querySelector(".score").textContent = score;
   } else if (guessDiff < 0) {
-    alert("too low...");
+    document.querySelector(".message").textContent = "too low...";
+    score -- 
+    document.querySelector(".score").textContent = score;
   } else {
-    alert("correct number!");
+    document.querySelector(".message").textContent = "correct number!";
+    document.body.style.backgroundColor = "#60b347";
+    document.querySelector(".check").remove();
+    document.querySelector(".guess").setAttribute("disabled", "");
+    document.querySelector(".highscore").textContent = score;
+
+    // need logic for new high score!
   }
 }
 
 const checkBtn = document.querySelector(".check");
 checkBtn.addEventListener("click", checkGuess, false);
+
+
+// need function to reset some values for again! button
